@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.itemBlockGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.imgPhoneGrid {
+    margin: 0 auto;
+    width: 100px;
+}
+.imgPhoneGrid img {
+    text-align: center;
+    width: 100%;
+}
+.nuvPages {
+     text-align: center;
+ }
+
+/*.....................*/
+
+.itemBlockList  {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+
+}
+.itemBlockList h4 {
+display: inline-block;
+}
+.itemBlockImgList {
+    width: 10%;
+}
+.itemBlockImgList img {
+    padding: 10%;
+    width: 100%;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 200px;
+}
+.nuvButtonGrid {
+    margin-left: 20px;
+}
+
+.page {
+    display: none;
+}
+.containerGrid .page:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+.containerList .page:nth-child(1) {
+    display: block;
+}
